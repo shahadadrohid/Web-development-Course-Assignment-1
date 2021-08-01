@@ -61,7 +61,7 @@ body{
     font-size: 30px;
 }
 .aboutme img{
-    width: 70% 
+    width: 70%;
 }
 .middletext{
     text-align: center;
@@ -83,4 +83,35 @@ body{
 }
 .Middle{
     font-family: 'Lobster', cursive;
+}
+
+   /* Mobile device  */
+
+@media only screen and (max-width:480px) {
+    .flexible-content{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .right-side{
+        width: 25%;
+        padding: 4px 0px 10px 5px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+    }
+    .left-side{
+        display: inline-flex;
+        width: 50%;
+        padding: 30px 0;
+        padding-left: 20px;
+        margin: 10px 5px;
+    }
+    .leftbox{
+        text-decoration: none;
+        color: black;
+        box-shadow: 5px 5px 20px #ccc;
+        background: white;
+        padding: 8px;
+        border-radius: 18px;
+        margin: 5px 5px;
+    }
 }
